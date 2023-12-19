@@ -1,0 +1,4 @@
+ docker run --rm -it -v /home/ayush/Documents/webProject/reactappone:/app -p 127.0.0.1:3000:3000 -h 0.0.0.0 my_first_react_image:latest npm run dev
+ docker run --rm -it -v /home/ayush/Documents/webProject/reactappone:/app  my_first_react_image:latest npm run dev
+
+
